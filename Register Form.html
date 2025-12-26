@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="submit.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div id="colorlib-consult">
+        <div class="video colorlib-video" style="background-image: url(images/36.jpg);" data-stellar-background-ratio="0.5"></div>
+        <div class="choose choose-form animate-box">
+            <div class="container">
+                <p>
+                    <a href="admin_login.html">Admin Login</a><br>
+                </p>
+                
+                
+                <h2>Registration Form</h2>
+                <form action="connect.php" method="POST">
+                    <div class="user_details">
+                        <!-- Full Name -->
+                        <div class="input_box">
+                            <span class="title">Full Name</span>
+                            <input type="text" name="txtna" placeholder="Full Name" required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="input_box">
+                            <span class="title">Email</span>
+                            <input type="email" name="txtma" placeholder="Email" required>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="input_box">
+                            <span class="title">Phone Number</span>
+                            <input type="tel" name="txtno" placeholder="Phone Number" required>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="input_box">
+                            <span class="title">Address</span>
+                            <input type="text" name="txtnad" placeholder="Address" required>
+                        </div>
+
+                        <!-- Sector -->
+                        <div class="input_box">
+                            <span class="title">Sector</span>
+                            <input type="text" name="txtse" placeholder="Sector" required>
+                        </div>
+
+                        <!-- ID Number -->
+                        <div class="input_box">
+                            <span class="title">ID Number</span>
+                            <input type="text" name="txtid" placeholder="ID Number" required>
+                        </div>
+
+                        <!-- Birthday -->
+                        <div class="input_box">
+                            <span class="title">Birthday</span>
+                            <input type="date" name="txtbd" required>
+                        </div>
+
+                        <!-- Age -->
+                        <div class="input_box">
+                            <span class="title">Age</span>
+                            <input type="number" name="txtag" placeholder="Age" required>
+                        </div>
+
+                        <!-- WhatsApp Number -->
+                        <div class="input_box">
+                            <span class="title">WhatsApp Number</span>
+                            <input type="tel" name="txtwn" placeholder="WhatsApp Number" required>
+                        </div>
+
+                        <!-- Village -->
+                        <div class="input_box">
+                            <span class="title">Village</span>
+                            <input type="text" name="txtvl" placeholder="Village" required>
+                        </div>
+
+                        <!-- Courses -->
+                        <div class="input_box">
+                            <span class="title">Courses</span>
+                            <input type="text" name="txtco" placeholder="Courses" required>
+                        </div>
+
+                        <!-- School -->
+                        <div class="input_box">
+                            <span class="title">School</span>
+                            <input type="text" name="txtsc" placeholder="School" required>
+                        </div>
+
+                        <!-- Gender -->
+                        <div class="user_gender">
+                            <span class="title">Gender</span>
+                            <div class="Gender_category">
+                                <label>
+                                    <input type="radio" name="Gender" value="M" required> Male
+                                </label>
+                                <label>
+                                    <input type="radio" name="Gender" value="F" required> Female
+                                </label>
+                                <label>
+                                    <input type="radio" name="Gender" value="O" required> Other
+                                </label>
+                            </div>
+                        </div>      
+                    <br>
+                        <!-- Submit Button -->
+                        <div class="button">
+                            <input type="submit" value="Register">
+                        </div>
+
+                    </br>
+                       
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

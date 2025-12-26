@@ -1,0 +1,9 @@
+.center-image {
+    max-width: 100%; /* Ensure the image scales responsively */
+    max-height: 100%; /* Ensure the image does not exceed the container */
+  }
+  .custom-section {
+    margin: 1cm; /* Adds 1cm margins on all sides of this section */
+    padding: 0; /* Optional: Remove any additional padding if not needed */
+    background-color: #f9f9f9; /* Optional: Add a background color to highlight the section */
+  }

@@ -1,0 +1,13 @@
+.admin-login, .admin-link {
+    text-align: center;
+    margin: 20px auto;
+}
+.admin-login form {
+    display: inline-block;
+    margin: 0 auto;
+}
+.admin-link a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
